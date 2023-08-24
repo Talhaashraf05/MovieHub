@@ -1,0 +1,131 @@
+﻿@model IEnumerable<MovieHub.Models.Seat>
+
+    @{
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+    @using System.Web.Mvc
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie Hub</title>
+        <link href="~/Content/adminStyles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="../javascript/index.js" />
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+              crossorigin="anonymous" />
+    <style>
+
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #55f5ff;
+            padding: 10px;
+            border-radius: 5px;
+            float: left;
+        }
+
+            .sidebar ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .sidebar li {
+                margin-bottom: 10px;
+            }
+
+            .sidebar a {
+                display: block;
+                padding: 8px;
+                text-decoration: none;
+                color: #333;
+            }
+
+                .sidebar a:hover {
+                    background-color: #ddd;
+                }
+
+        .content {
+            margin-left: 220px; /* Adjust the margin to leave space for the sidebar */
+            margin-bottom: 600px;
+        }
+
+    </style>
+    </head>
+    <body>
+
+        <div class="sidebar">
+            <ul>
+                <li class="nav-item">@Html.ActionLink("Show Cinema", "ShowCinemaData", "Cinema")</li>
+                <li class="nav-item">@Html.ActionLink("Add Movie", "CreateMovie", "MovieData")</li>
+                <li class="nav-item">@Html.ActionLink("Show Moive", "ShowMovieData", "MovieData")</li>
+                <li class="nav-item">@Html.ActionLink("Add Screen", "AddScreen", "Screen")</li>
+                <li class="nav-item">@Html.ActionLink("Show Screens", "ShowScreenData", "Screen")</li>
+                <li class="nav-item">@Html.ActionLink("Search Seat", "SearchSeat", "SeatReservation")</li>
+            </ul>
+        </div>
+
+        <!-- Start of Company Public Post Table -->
+        <div class="content">
+            <div class="col-md-12 col-lg-12 tableSection m3">
+                <div class="white">
+                    <table class="table table-hover table-responsive company-table">
+                        <tr class="h70">
+                            <th class="p20c" scope="col">User ID</th>
+                            <th class="p20c" scope="col">Movie Id</th>
+                            <th class="p20c" scope="col">Movie Name</th>
+                            <th class="p20c" scope="col">Seat Id</th>
+                            <th class="p20c" scope="col">Seat UserName</th>
+                            <th class="p20c" scope="col">Seat Number</th>
+                            <th class="p20c" scope="col">Delete</th>
+
+                        </tr>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="h80">
+                                <td>@item.Se_User_id</td>
+                                <td>@item.Se_Movie_id</td>
+                                <td>@item.MovieData.M_Name</td>
+                                <td>@item.Se_Id</td>
+                                <td>@item.Se_UserName</td>
+                                <td>@item.Se_Number</td>
+
+                                <td>
+                                    <form action="@Url.Action(" Delete", "SeatReservation" )" method="post">
+                                        <input type="hidden" name="id" value="@item.Se_Id" />
+                                        <button type="submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 width="16"
+                                                 height="16"
+                                                 fill="red"
+                                                 class="bi bi-trash3-fill"
+                                                 viewBox="0 0 16 16">
+                                                <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+                                            </svg>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+
+                    </table>
+                </div>
+            </div>
+            <!-- End of Company Public Post Table -->
+        </div>
+    </body>
+</html>

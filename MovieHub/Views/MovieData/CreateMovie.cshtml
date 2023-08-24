@@ -1,0 +1,286 @@
+﻿@model MovieHub.Models.MovieData
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+
+<style>
+    body {
+        min-height: 100vh;
+        background: linear-gradient(45deg, #90e0ef, #3F5EFB);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    .form-horizontall {
+        background: #ffffff;
+        padding: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 400px;
+        align-content: center
+    }
+
+    h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="time"],
+    input[type="file"] {
+        width: 100%;
+        padding: 8px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        background-color: #16bbe8;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        margin-top: 10px;
+        font-size: 16px;
+        border-radius: 15px;
+        cursor: pointer;
+        float: right;
+    }
+
+        input[type="submit"]:hover {
+            background-color: black;
+            color: #16bbe8;
+        }
+
+    .text-danger {
+        color: red;
+    }
+
+    #preview {
+        max-width: 200px;
+        max-height: 200px;
+        display: none;
+        margin-top: 10px;
+    }
+
+    .sidebar {
+        margin-top:10px;
+        width: 200px;
+        background-color: #55f5ff;
+        padding: 10px;
+        border-radius: 5px;
+        float: left;
+    }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color: #333;
+        }
+
+            .sidebar a:hover {
+                background-color: #ddd;
+            }
+
+    .content {
+        margin-left: 220px; /* Adjust the margin to leave space for the sidebar */
+        margin-bottom: 1300px;
+    }
+
+</style>
+
+
+<div class="sidebar">
+    <ul>
+        <li class="nav-item">@Html.ActionLink("Show Cinema", "ShowCinemaData", "Cinema")</li>
+        <li class="nav-item">@Html.ActionLink("Add Movie", "CreateMovie", "MovieData")</li>
+        <li class="nav-item">@Html.ActionLink("Show Moive", "ShowMovieData", "MovieData")</li>
+        <li class="nav-item">@Html.ActionLink("Add Screen", "AddScreen", "Screen")</li>
+        <li class="nav-item">@Html.ActionLink("Show Screens", "ShowScreenData", "Screen")</li>
+        <li class="nav-item">@Html.ActionLink("Search Seat", "SearchSeat", "SeatReservation")</li>
+</div>
+
+
+<div class="content">
+
+    @using (Html.BeginForm("CreateMovie", "MovieData", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="form-horizontall ">
+                <h4>MovieData</h4>
+                <hr />
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+               
+                <div>
+                    @ViewBag.ErrorMessage;
+                </div>
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="moviename">Movie Name:</label>
+                        @Html.TextBoxFor(model => model.M_Name, new { @placeholder = "Enter the movie name" })
+                        @Html.ValidationMessageFor(model => model.M_Name, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="category">Category:</label>
+                        @Html.TextBoxFor(model => model.M_Category, new { @placeholder = "Enter the movie category" })
+                        @Html.ValidationMessageFor(model => model.M_Category, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="category">Price:</label>
+                        @Html.EditorFor(model => model.M_Price, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.M_Price, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="startdate">Start Date:</label>
+                        <input type="date" class="" name="M_StartDate" id="M_StartDate" />
+                        @Html.ValidationMessageFor(model => model.M_StartDate, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="enddate">End Date:</label>
+                        <input type="date" class="" name="M_EndDate" id="M_EndDate" />
+                        @Html.ValidationMessageFor(model => model.M_EndDate, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="MovieStatus">Movie Status:</label>
+                        @Html.TextBoxFor(model => model.M_Status, new { @placeholder = "Enter the movie status" })
+                        @Html.ValidationMessageFor(model => model.M_Status, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="Description">Description:</label>
+                        @Html.TextBoxFor(model => model.M_Description, new { @placeholder = "Enter the movie description" })
+                        @Html.ValidationMessageFor(model => model.M_Description, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="MovieImage">Movie Image:</label>
+                        <input type="file" name="ImageFile" id="ImageFile" class="" onchange="previewImage()" required />
+                        <img id="preview" src="#" alt="Preview" />
+                        @Html.ValidationMessageFor(model => model.M_img, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+
+                    <div class="col-md-10">
+                        <label for="category">Movie Banner:</label>
+                        <input type="file" class="form-control" id="BannerFile" name="BannerFile" />
+                        @Html.ValidationMessageFor(model => model.M_Banner, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+                <script>
+                    function previewImage() {
+                        var fileInput = document.getElementById('ImageFile');
+                        var preview = document.getElementById('preview');
+
+                        if (fileInput.files && fileInput.files[0]) {
+                            var reader = new FileReader();
+                            reader.onload = function (e) {
+                                preview.src = e.target.result;
+                                preview.style.display = 'block';
+                            }
+                            reader.readAsDataURL(fileInput.files[0]);
+                        }
+                    }
+                </script>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="category">Movie Duration:</label>
+                        @Html.EditorFor(model => model.M_Duration, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.M_Duration, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="StartTime">Movie Start Time:</label>
+                        <input type="time" class="" name="M_StartTime" id="M_StartTime" />
+                        @Html.ValidationMessageFor(model => model.M_ShowtimeStart, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="EndTime">Movie End Time:</label>
+                        <input type="time" class="" name="M_EndTime" id="M_EndTime" />
+                        @Html.ValidationMessageFor(model => model.M_ShowtimeEnd, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <label for="category">Screen ID:</label>
+
+                        @{
+                            var movieList = ViewData["M_ScreenId"] as IEnumerable<SelectListItem>;
+                            if (movieList != null)
+                            {
+                                @Html.DropDownList("M_ScreenId", movieList, htmlAttributes: new { @class = "form-control" })
+                            }
+                            else
+                            {
+                                <p>No movies found.</p>
+                            }
+                        }
+                        @*@Html.DropDownList("M_ScreenId", null, htmlAttributes: new { @class = "form-control" })*@
+                        @Html.ValidationMessageFor(model => model.M_ScreenId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-10">
+                        <input type="submit" value="Create" class="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+@*<div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@

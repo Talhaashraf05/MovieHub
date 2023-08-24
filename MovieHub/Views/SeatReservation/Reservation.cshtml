@@ -1,0 +1,95 @@
+﻿@model MovieHub.Models.Seat
+<style>
+    .container {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .input-container {
+        margin-bottom: 10px;
+    }
+
+    .text-danger {
+        color: red;
+    }
+
+    input[type="text"] {
+        padding: 5px;
+    }
+
+    input[type="submit"] {
+        padding: 08px 20px;
+        background-color: #00ffff;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+</style>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img style="width:100% ; height:50vh ; object-fit: cover" src="~/Images/01-min.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+
+                <img style="width:100% ; height:50vh ; object-fit: cover" src="~/Images/02-min.jpg" alt="Second slide" />
+            </div>
+            <div class="carousel-item">
+                <img style="width:100% ; height:50vh; object-fit: cover" src="~/Images/03-min.jpg" alt="Third slide" />
+            </div>
+            <div class="carousel-item">
+                <img style="width:100% ; height:50vh; object-fit: cover" src="~/Images/04-min.jpg" alt="Fourth slide" />
+            </div>
+            <div class="carousel-item">
+                <img style="width:100% ; height:50vh; object-fit: cover" src="~/Images/05-min.jpg" alt="Fifth slide" />
+            </div>
+        </div>
+    </div>
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+
+    <div class="text-center">
+        <div class="container">
+            <div class="input-container">
+                <label for="seNumber" style="margin-right:50px; font-family:monospace" ;>Seat Number # </label>
+                @Html.DropDownList("se.Se_Number", (SelectList)ViewBag.AvailableSeatNumbers, "-- Select Seat --")
+                @Html.ValidationMessageFor(model => model.Se_Number, "", new { @class = "text-danger" })
+                <input type="submit" value="Create" class="" />
+            </div>
+        </div>
+
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.Se_Number, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("se.Se_Number", (SelectList)ViewBag.AvailableSeatNumbers, "-- Select Seat --", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Se_Number, "", new { @class = "text-danger" })
+            </div>
+        </div>*@
+
+        <div style="justify-content:center; align-content:center">
+            <p>Reference mapping of cinema seats</p>
+            <img src="~/Images/dl.beatsnoop.com-POC4VHxYbR.jpg" width="500" height="300" />
+        </div>
+    </div>
+
+
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

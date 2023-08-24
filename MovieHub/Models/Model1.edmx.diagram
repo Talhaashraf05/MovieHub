@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b1208cddf6ac4cf0b996f167187322a6" Name="Diagram1" ZoomLevel="59">
+        <EntityTypeShape EntityType="MovieHubDatabaseModel.Cinema" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieHubDatabaseModel.MovieData" Width="1.5" PointX="7.875" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieHubDatabaseModel.Screen" Width="1.5" PointX="5.25" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieHubDatabaseModel.Seat" Width="1.5" PointX="5.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MovieHubDatabaseModel.User" Width="1.5" PointX="3.625" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="MovieHubDatabaseModel.FK__Screen__S_Cinema__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="MovieHubDatabaseModel.FK__MovieData__M_Scr__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="MovieHubDatabaseModel.FK__Seat__Se_Movie_i__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="MovieHubDatabaseModel.FK__Seat__Se_User_id__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

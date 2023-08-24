@@ -1,0 +1,62 @@
+﻿@model MovieHub.Models.Cinema
+
+<style>
+
+    .sidebar {
+        margin-top: 10px;
+        width: 200px;
+        background-color: #55f5ff;
+        padding: 10px;
+        border-radius: 5px;
+        float: left;
+    }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color: #333;
+        }
+
+            .sidebar a:hover {
+                background-color: #ddd;
+            }
+
+    .content {
+        margin-left: 220px; /* Adjust the margin to leave space for the sidebar */
+        margin-bottom: 220px;
+    }
+</style>
+
+<div class="sidebar">
+    <ul>
+        <li class="nav-item">@Html.ActionLink("Show Cinema", "ShowCinemaData", "Cinema")</li>
+        <li class="nav-item">@Html.ActionLink("Add Movie", "CreateMovie", "MovieData")</li>
+        <li class="nav-item">@Html.ActionLink("Show Moive", "ShowMovieData", "MovieData")</li>
+        <li class="nav-item">@Html.ActionLink("Add Screen", "AddScreen", "Screen")</li>
+        <li class="nav-item">@Html.ActionLink("Show Screens", "ShowScreenData", "Screen")</li>
+        <li class="nav-item">@Html.ActionLink("Search Seat", "SearchSeat", "SeatReservation")</li>
+    </ul>
+</div>
+
+<div class="content">
+    
+
+<div >
+    
+</div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

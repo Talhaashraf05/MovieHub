@@ -1,0 +1,560 @@
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\SL LAPTOP\Desktop\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.pdb
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\moaza\Downloads\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.pdb
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\SL LAPTOP\Desktop\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.pdb
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\moaza\Downloads\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.pdb
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\moaza\Downloads\1cinema (1)\1cinema\@nd Project\MovieHub\MovieHub\obj\Debug\MovieHub.pdb
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\talha\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.pdb
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\MovieHub.dll.config
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\MovieHub.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\MovieHub.pdb
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csc.exe
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csc.exe.config
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csc.rsp
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csi.exe
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csi.exe.config
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\csi.rsp
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.AppContext.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Console.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.Compression.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.IO.Pipes.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Claims.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.ValueTuple.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\vbc.exe
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\vbc.exe.config
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\vbc.rsp
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Antlr3.Runtime.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.SqlServer.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Newtonsoft.Json.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Helpers.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Mvc.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Optimization.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Razor.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\WebGrease.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\EntityFramework.SqlServer.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Helpers.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Mvc.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Optimization.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.Razor.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Deployment.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\System.Web.WebPages.Razor.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Newtonsoft.Json.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Antlr3.Runtime.pdb
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.csprojAssemblyReference.cache
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CoreCompileInputs.cache
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.csproj.CopyComplete
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.dll
+C:\Users\moaza\OneDrive\Desktop\Final\MovieHub\MovieHub\obj\Debug\MovieHub.pdb

@@ -1,0 +1,110 @@
+﻿@model MovieHub.Models.Screen
+
+<style>
+    .form-horizontal {
+        margin: 20px auto; /* Center the form horizontally and add margin */
+        max-width: 500px; /* Set a maximum width for the form */
+    }
+
+        /* Add margin to the top and bottom of the form */
+        .form-horizontal h4,
+        .form-horizontal hr,
+        .form-horizontal .form-group {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Center the form labels */
+        .form-horizontal .control-label {
+            text-align: center;
+        }
+
+
+    .sidebar {
+        margin-top: 10px;
+        width: 200px;
+        background-color: #55f5ff;
+        padding: 10px;
+        border-radius: 5px;
+        float: left;
+    }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 8px;
+            text-decoration: none;
+            color: #333;
+        }
+
+            .sidebar a:hover {
+                background-color: #ddd;
+            }
+
+    .content {
+        margin-left: 220px; /* Adjust the margin to leave space for the sidebar */
+        margin-bottom: 220px;
+    }
+
+</style>
+
+<div class="sidebar">
+    <ul>
+        <li class="nav-item">@Html.ActionLink("Show Cinema", "ShowCinemaData", "Cinema")</li>
+        <li class="nav-item">@Html.ActionLink("Add Movie", "CreateMovie", "MovieData")</li>
+        <li class="nav-item">@Html.ActionLink("Show Moive", "ShowMovieData", "MovieData")</li>
+        <li class="nav-item">@Html.ActionLink("Add Screen", "AddScreen", "Screen")</li>
+        <li class="nav-item">@Html.ActionLink("Show Screens", "ShowScreenData", "Screen")</li>
+        <li class="nav-item">@Html.ActionLink("Search Seat", "SearchSeat", "SeatReservation")</li>
+    </ul>
+</div>
+
+<div class="content">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <h4>Screen</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.S_Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.S_Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.S_Name, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.S_Cinema_Id, "S_Cinema_Id", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("S_Cinema_Id", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.S_Cinema_Id, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

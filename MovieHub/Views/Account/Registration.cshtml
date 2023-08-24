@@ -1,0 +1,133 @@
+﻿@model MovieHub.Models.User
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryval")
+
+<style>
+    body {
+        background: linear-gradient(45deg, #FC466B, #3F5EFB);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    .form-wrapper {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 60px;
+        font-family: "Lato", sans-serif;
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .form-group label {
+            display: inline-block;
+            width: 120px;
+            font-size: 16px;
+            margin-bottom: 5px;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        .form-group input[type="text"] {
+            background: transparent;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group input[type="submit"] {
+            align-items: center;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+            box-sizing: border-box;
+            color: #121212;
+            cursor: pointer;
+            display: inline-flex;
+            flex: 1 1 auto;
+            font-family: Inter, sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            justify-content: center;
+            line-height: 1;
+            margin: 0;
+            outline: none;
+            padding: 0.8rem 2.7rem;
+            text-align: center;
+            text-decoration: none;
+            transition: box-shadow .2s, -webkit-box-shadow .2s;
+            white-space: nowrap;
+            border: 0;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            transition: background-color 0.3s;
+        }
+
+            .form-group input[type="submit"]:hover {
+                box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+            }
+</style>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-wrapper">
+        <h1 style="color: #111; font-family: 'Trocchi', serif; font-size: 35px; font-weight: normal; line-height: 48px; margin-bottom:10;">Sign Up</h1>
+        <div class="form-group">
+            <label for="FirstName">First Name:</label>
+            @Html.TextBoxFor(model => Model.FirstName, new { @placeholder = "Enter your First Name" })
+        </div>
+
+        <div class="form-group">
+            <label for="LastName">Last Name:</label>
+            @Html.TextBoxFor(model => Model.LastName, new { @placeholder = "Enter your Last Name" })
+        </div>
+
+        <div class="form-group">
+            <label for="PhoneNumber">Contact :</label>
+            @Html.TextBoxFor(model => Model.Phonenumber, new { @placeholder = "Enter your Phone Number" })
+        </div>
+
+        <div class="form-group">
+            <label for="Username">Username:</label>
+            @Html.TextBoxFor(model => Model.Username, new { @placeholder = "Enter your Username" })
+        </div>
+
+        <div class="form-group">
+            <label for="EmailAddress">Email:</label>
+            @Html.TextBoxFor(model => Model.EmailAddress, new { @placeholder = "Enter your Email" })
+        </div>
+
+        <div class="form-group">
+            <label for="UserPassword">Password:</label>
+            @Html.TextBoxFor(model => Model.UserPassword, new { @placeholder = "Enter your Password" })
+        </div>
+
+        <div class="form-group">
+            <div>
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+@*<div class="back-link">
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@

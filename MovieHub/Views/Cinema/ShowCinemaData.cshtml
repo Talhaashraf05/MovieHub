@@ -1,0 +1,140 @@
+﻿
+@model IEnumerable<MovieHub.Models.Cinema>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@using System.Web.Mvc
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Hub</title>
+
+    <style>
+        /* CSS styles */
+        body {
+            /*padding: 20px;*/
+            background-color: #f2f2f2;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: #55f5ff;
+            padding: 10px;
+            border-radius: 5px;
+            float: left;
+        }
+
+            .sidebar ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .sidebar li {
+                margin-bottom: 10px;
+            }
+
+            .sidebar a {
+                display: block;
+                padding: 8px;
+                text-decoration: none;
+                color: #333;
+            }
+
+                .sidebar a:hover {
+                    background-color: #ddd;
+                }
+
+        .content {
+            margin-left: 220px; /* Adjust the margin to leave space for the sidebar */
+            margin-bottom: 220px;
+        }
+
+        .cinema-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+            .cinema-table th,
+            .cinema-table td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .cinema-table th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+            }
+
+            .cinema-table tr.h80 td {
+                height: 80px;
+            }
+
+        .delete-button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+
+            .delete-button:hover {
+                background-color: #f2f2f2;
+            }
+    </style>
+</head>
+<body>
+    <!-- Start of Company Public Post Table -->
+
+    <div class="sidebar">
+        <ul>
+            <li class="nav-item">@Html.ActionLink("Show Cinema", "ShowCinemaData", "Cinema")</li>
+            <li class="nav-item">@Html.ActionLink("Add Movie", "CreateMovie", "MovieData")</li>
+            <li class="nav-item">@Html.ActionLink("Show Moive", "ShowMovieData", "MovieData")</li>
+            <li class="nav-item">@Html.ActionLink("Add Screen", "AddScreen", "Screen")</li>
+            <li class="nav-item">@Html.ActionLink("Show Screens", "ShowScreenData", "Screen")</li>
+            <li class="nav-item">@Html.ActionLink("Search Seat", "SearchSeat", "SeatReservation")</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="">
+            <table class="cinema-table">
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Location</th>
+                    <th>Action</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr class="h80">
+                        <td>@item.C_Id</td>
+                        <td>@item.C_Name</td>
+                        <td>@item.C_Description</td>
+                        <td><a href="@item.C_Location"> @item.C_Location</a></td>
+                        <td>
+                            <form action="@Url.Action("DeleteCinema", "Cinema")" method="post">
+                                <input type="hidden" name="id" value="@item.C_Id" />
+                                <button type="submit" class="delete-button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-trash3-fill" viewBox="0 0 16 16">
+                                        <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+                                    </svg>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+    <!-- End of Company Public Post Table -->
+</body>
+</html>
+

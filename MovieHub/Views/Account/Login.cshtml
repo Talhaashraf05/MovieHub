@@ -1,0 +1,122 @@
+﻿@model MovieHub.Models.User
+
+
+
+<style>
+    body {
+        background: linear-gradient(45deg, #FC466B, #3F5EFB);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .form-wrapper {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-family: "Lato", sans-serif;
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+        .form-group label {
+            display: inline-block;
+            width: 120px;
+            font-size: 16px;
+            margin-bottom: 5px;
+            text-align: right;
+            padding-right: 10px;
+        }
+
+
+        .form-group input[type="text"] {
+            background: transparent;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group input[type="password"] {
+            background: transparent;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+
+        .form-group input[type="submit"] {
+            align-items: center;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+            box-sizing: border-box;
+            color: #121212;
+            cursor: pointer;
+            display: inline-flex;
+            flex: 1 1 auto;
+            font-family: Inter, sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            justify-content: center;
+            line-height: 1;
+            margin: 0;
+            outline: none;
+            padding: 0.8rem 2.7rem;
+            text-align: center;
+            text-decoration: none;
+            transition: box-shadow .2s, -webkit-box-shadow .2s;
+            white-space: nowrap;
+            border: 0;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            transition: background-color 0.3s;
+        }
+
+            .form-group input[type="submit"]:hover {
+                box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+            }
+</style>
+
+
+@Html.BeginForm("Login", "Account", FormMethod.Post) {
+<div class="form-wrapper">
+    <h1 style="color: #111; font-family: 'Trocchi', serif; font-size: 35px; font-weight: normal; line-height: 48px; margin-bottom:10;">Login</h1>
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="form-group">
+        <label for="Username">User Name:</label>
+        @Html.TextBoxFor(Model => Model.Username, new { @placeholder = "Enter your UserName" })
+        @Html.ValidationMessageFor(Model => Model.Username, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password:</label>
+        @Html.PasswordFor(Model => Model.UserPassword, new { @placeholder = "Enter your Password" })
+        @Html.ValidationMessageFor(Model => Model.UserPassword, "", new { @class = "text-danger" })
+
+    </div>
+
+    <div class="form-group">
+        <div>
+            <input type="submit" value="Login" class="btn btn-primary" />
+            <a href="@Url.Action("Registration")" style="margin-left:40px; color:black ;text-decoration:none; "> Sign Up </a>
+        </div>
+    </div>
+</div>
+}

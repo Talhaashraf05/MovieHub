@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MovieHubDatabaseModelStoreContainer" CdmEntityContainer="MovieHubDatabaseEntities1">
+    <EntitySetMapping Name="Cinemas">
+      <EntityTypeMapping TypeName="MovieHubDatabaseModel.Cinema">
+        <MappingFragment StoreEntitySet="Cinema">
+          <ScalarProperty Name="C_Id" ColumnName="C_Id" />
+          <ScalarProperty Name="C_Name" ColumnName="C_Name" />
+          <ScalarProperty Name="C_Description" ColumnName="C_Description" />
+          <ScalarProperty Name="C_Location" ColumnName="C_Location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MovieDatas">
+      <EntityTypeMapping TypeName="MovieHubDatabaseModel.MovieData">
+        <MappingFragment StoreEntitySet="MovieData">
+          <ScalarProperty Name="M_Id" ColumnName="M_Id" />
+          <ScalarProperty Name="M_Name" ColumnName="M_Name" />
+          <ScalarProperty Name="M_Category" ColumnName="M_Category" />
+          <ScalarProperty Name="M_Price" ColumnName="M_Price" />
+          <ScalarProperty Name="M_StartDate" ColumnName="M_StartDate" />
+          <ScalarProperty Name="M_EndDate" ColumnName="M_EndDate" />
+          <ScalarProperty Name="M_Status" ColumnName="M_Status" />
+          <ScalarProperty Name="M_Description" ColumnName="M_Description" />
+          <ScalarProperty Name="M_img" ColumnName="M_img" />
+          <ScalarProperty Name="M_Banner" ColumnName="M_Banner" />
+          <ScalarProperty Name="M_Duration" ColumnName="M_Duration" />
+          <ScalarProperty Name="M_ShowtimeStart" ColumnName="M_ShowtimeStart" />
+          <ScalarProperty Name="M_ShowtimeEnd" ColumnName="M_ShowtimeEnd" />
+          <ScalarProperty Name="M_ScreenId" ColumnName="M_ScreenId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Screens">
+      <EntityTypeMapping TypeName="MovieHubDatabaseModel.Screen">
+        <MappingFragment StoreEntitySet="Screen">
+          <ScalarProperty Name="S_Id" ColumnName="S_Id" />
+          <ScalarProperty Name="S_Name" ColumnName="S_Name" />
+          <ScalarProperty Name="S_Cinema_Id" ColumnName="S_Cinema_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Seats">
+      <EntityTypeMapping TypeName="MovieHubDatabaseModel.Seat">
+        <MappingFragment StoreEntitySet="Seat">
+          <ScalarProperty Name="Se_Id" ColumnName="Se_Id" />
+          <ScalarProperty Name="Se_Number" ColumnName="Se_Number" />
+          <ScalarProperty Name="Se_UserName" ColumnName="Se_UserName" />
+          <ScalarProperty Name="Se_Movie_id" ColumnName="Se_Movie_id" />
+          <ScalarProperty Name="Se_User_id" ColumnName="Se_User_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="MovieHubDatabaseModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Phonenumber" ColumnName="Phonenumber" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserRole" ColumnName="UserRole" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

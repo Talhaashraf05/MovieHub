@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MovieHubDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Cinema">
+    <Key>
+      <PropertyRef Name="C_Id" />
+    </Key>
+    <Property Name="C_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="C_Name" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="C_Description" Type="varchar" MaxLength="600" Nullable="false" />
+    <Property Name="C_Location" Type="nvarchar" MaxLength="1024" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MovieData">
+    <Key>
+      <PropertyRef Name="M_Id" />
+    </Key>
+    <Property Name="M_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="M_Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="M_Category" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="M_Price" Type="int" Nullable="false" />
+    <Property Name="M_StartDate" Type="date" Nullable="false" />
+    <Property Name="M_EndDate" Type="date" Nullable="false" />
+    <Property Name="M_Status" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="M_Description" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="M_img" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="M_Banner" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="M_Duration" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="M_ShowtimeStart" Type="time" Precision="7" Nullable="false" />
+    <Property Name="M_ShowtimeEnd" Type="time" Precision="7" Nullable="false" />
+    <Property Name="M_ScreenId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Screen">
+    <Key>
+      <PropertyRef Name="S_Id" />
+    </Key>
+    <Property Name="S_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="S_Name" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="S_Cinema_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Seat">
+    <Key>
+      <PropertyRef Name="Se_Id" />
+    </Key>
+    <Property Name="Se_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Se_Number" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Se_UserName" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Se_Movie_id" Type="int" Nullable="false" />
+    <Property Name="Se_User_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="EmailAddress" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Phonenumber" Type="varchar" MaxLength="11" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="UserPassword" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="UserRole" Type="varchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__MovieData__M_Scr__47DBAE45">
+    <End Role="Screen" Type="Self.Screen" Multiplicity="1" />
+    <End Role="MovieData" Type="Self.MovieData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Screen">
+        <PropertyRef Name="S_Id" />
+      </Principal>
+      <Dependent Role="MovieData">
+        <PropertyRef Name="M_ScreenId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Screen__S_Cinema__48CFD27E">
+    <End Role="Cinema" Type="Self.Cinema" Multiplicity="1" />
+    <End Role="Screen" Type="Self.Screen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cinema">
+        <PropertyRef Name="C_Id" />
+      </Principal>
+      <Dependent Role="Screen">
+        <PropertyRef Name="S_Cinema_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Seat__Se_Movie_i__44FF419A">
+    <End Role="MovieData" Type="Self.MovieData" Multiplicity="1" />
+    <End Role="Seat" Type="Self.Seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MovieData">
+        <PropertyRef Name="M_Id" />
+      </Principal>
+      <Dependent Role="Seat">
+        <PropertyRef Name="Se_Movie_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Seat__Se_User_id__45F365D3">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Seat" Type="Self.Seat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Seat">
+        <PropertyRef Name="Se_User_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MovieHubDatabaseModelStoreContainer">
+    <EntitySet Name="Cinema" EntityType="Self.Cinema" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MovieData" EntityType="Self.MovieData" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Screen" EntityType="Self.Screen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Seat" EntityType="Self.Seat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__MovieData__M_Scr__47DBAE45" Association="Self.FK__MovieData__M_Scr__47DBAE45">
+      <End Role="Screen" EntitySet="Screen" />
+      <End Role="MovieData" EntitySet="MovieData" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Screen__S_Cinema__48CFD27E" Association="Self.FK__Screen__S_Cinema__48CFD27E">
+      <End Role="Cinema" EntitySet="Cinema" />
+      <End Role="Screen" EntitySet="Screen" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Seat__Se_Movie_i__44FF419A" Association="Self.FK__Seat__Se_Movie_i__44FF419A">
+      <End Role="MovieData" EntitySet="MovieData" />
+      <End Role="Seat" EntitySet="Seat" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Seat__Se_User_id__45F365D3" Association="Self.FK__Seat__Se_User_id__45F365D3">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Seat" EntitySet="Seat" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
